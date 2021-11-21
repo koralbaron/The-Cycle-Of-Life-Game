@@ -1,4 +1,4 @@
-# TheCycleOfLifeGame
+# The Cycle Of Life Game
 ## Description
 A simulation game invented by the mathematician John Conway, as a research model for the life cycle of a living organism.
 This game was written in Java and JavaFX.
