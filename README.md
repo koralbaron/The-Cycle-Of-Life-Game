@@ -1,6 +1,7 @@
 # TheCycleOfLifeGame
 ## Description
-A simulation game invented by the mathematician John Conway, as a research model for the life cycle of a living organism. 
+A simulation game invented by the mathematician John Conway, as a research model for the life cycle of a living organism.
+This game was written in Java and JavaFX.
 ### Game Rules
 * **Death** - The next generation will die if the current spot has life in it and has only 1 or 0 living neighbors (loneliness)
 or if the current spot has life in it and has more than 4 living neighbors (overpopulation).
