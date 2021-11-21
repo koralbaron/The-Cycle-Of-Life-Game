@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <center>
+      <Canvas fx:id="canvas" height="276.0" width="428.0" BorderPane.alignment="CENTER" />
+   </center>
+   <top>
+      <Label alignment="CENTER" prefHeight="66.0" prefWidth="308.0" text="The Cycle Of Life Game" textAlignment="CENTER" underline="true" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+   </top>
+   <bottom>
+      <Button fx:id="btn" mnemonicParsing="false" onAction="#click" prefHeight="47.0" prefWidth="153.0" text="Next generation" textAlignment="CENTER" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </bottom>
+   <right>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label prefHeight="73.0" prefWidth="100.0" text="Number Of Generations:" textAlignment="CENTER" wrapText="true" />
+            <Label fx:id="genCounter" alignment="CENTER" contentDisplay="CENTER" prefHeight="29.0" prefWidth="100.0" text="0" textAlignment="CENTER" textOverrun="CLIP" />
+         </children>
+         <effect>
+            <Blend />
+         </effect>
+      </VBox>
+   </right>
+   <left>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
+   </left>
+</BorderPane>
